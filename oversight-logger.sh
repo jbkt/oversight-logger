@@ -9,8 +9,7 @@
 # 
 # By Keith McCammon // kwm.me
 
-HOME_DIR=/Users/kwm/
-LOG_DIR="${HOME_DIR}/log"
+LOG_DIR="${HOME}/log"
 LOG_PATH="${LOG_DIR}/oversight.log"
 
 if [ ! -d "$LOG_DIR" ]; then
